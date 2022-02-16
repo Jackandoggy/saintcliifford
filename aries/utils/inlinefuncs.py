@@ -84,10 +84,10 @@ async def inline_help_func(__help__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Support",
-            description="Official Aries Support.",
+            title="Group",
+            description="Official Movie Group.",
             input_message_content=InputTextMessageContent(
-                "https://t.me/idzeroidsupport"
+                "https://t.me/Cinemachanda"
             ),
             thumb_url="https://te.legra.ph/file/309261da33e15bd5e2c78.jpg",
         ),
