@@ -80,7 +80,7 @@ async def inline_help_func(__help__):
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
             ),
-            thumb_url="https://telegra.ph/file/02fcf8117a0d6cbf5b4c6.png",
+            thumb_url="https://te.legra.ph/file/309261da33e15bd5e2c78.jpg",
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
@@ -89,7 +89,7 @@ async def inline_help_func(__help__):
             input_message_content=InputTextMessageContent(
                 "https://t.me/idzeroidsupport"
             ),
-            thumb_url="https://telegra.ph/file/02fcf8117a0d6cbf5b4c6.png",
+            thumb_url="https://te.legra.ph/file/309261da33e15bd5e2c78.jpg",
         ),
     ]
     answerss = await alive_function(answerss)
@@ -100,12 +100,12 @@ async def alive_function(answers):
     buttons = InlineKeyboard(row_width=2)
     bot_state = "Dead" if not await app.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/idzeroid_bot"),
+        InlineKeyboardButton("Main Channel", url="https://t.me/check_this_channel"),
         InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[Aries](https://t.me/idzeroidsupport)**
+**[Clifford](https://t.me/Cinemachanda)**
 **MainBot:** `{bot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
@@ -117,7 +117,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Aries Status",
-            thumb_url="https://telegra.ph/file/02fcf8117a0d6cbf5b4c6.png",
+            thumb_url="https://te.legra.ph/file/309261da33e15bd5e2c78.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
