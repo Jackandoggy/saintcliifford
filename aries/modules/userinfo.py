@@ -363,10 +363,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/IDZEROID/15"
+                                "Health", url="https://t.me/free_music123/29366"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/IDZEROID/14"
+                                "Disaster", url="https://t.me/free_music123/29215"
                             ),
                         ],
                         [
@@ -384,10 +384,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/IDZEROID/15"
+                                "Health", url="https://t.me/free_music123/29366"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/IDZEROID/14"
+                                "Disaster", url="https://t.me/free_music123/29215"
                             ),
                         ],
                         [
@@ -487,7 +487,7 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[🔥 Support](https://t.me/IDZEROIDSUPPORT) | [🔥 Movie Channel](https://t.me/artezid)\n\n"
+            + f"\n\n[🔥 Movie Group](https://t.me/Cinemachanda) | [🔥 Channel](https://t.me/film_godown)\n\n"
             + "╘══「 by [Aryza](https://t.me/IdzXartez) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -500,7 +500,7 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n🔥 [Support](https://t.me/IDZEROIDSUPPORT) | 🔥 [Movie Channel](https://t.me/artezid)\n\n"
+                    + f"\n\n🔥 [Movie Group](https://t.me/Cinemachanda) | 🔥 [Channel](https://t.me/film_godown)\n\n"
                 )
                 + "╘══「 by [Aryza](https://t.me/IdzXartez) 」\n"
             ),
