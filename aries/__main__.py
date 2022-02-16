@@ -91,8 +91,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text=" ➕ ｢ Summon Me 」➕ ",
-            url="t.me/idzeroid_bot?startgroup=true",
+            text=" Join My Channel ",
+            url="https://t.me/film_godown",
         ),
     ],
     [
@@ -460,9 +460,9 @@ def aries_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*Aries Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
-            f"\n\nAries source code was rewritten by @IdzXartez and All Of Conrtibutor For Help Aries"
-            f"\n\nIf Any Question About aries, \nLet Us Know At @Idzeroidsupport.",
+            text=f"*Clifford Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
+            f"\n\nClifford was coded by @Geronimo1234 and @Alifmuhammed_tg"
+            f"\n\nJoin @Cinemachanda.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -518,11 +518,9 @@ def aries_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @IdzXartez spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @film_godown spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @Idzeroidsupport."
-            f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
-            f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
+            f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version"
             f"\n\nThank you!."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
