@@ -26,7 +26,7 @@ def get_file_id(msg: Message):
                 return obj
 
 
-@pbot.on_message(filters.command("id"))
+@pbot.on_message(filters.command("myid"))
 async def showid(client, message):
     chat_type = message.chat.type
     if chat_type == "private":
