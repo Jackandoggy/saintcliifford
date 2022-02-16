@@ -922,7 +922,7 @@ def main():
         aries_about_callback, pattern=r"aboutmanu_", run_async=True
     )
 
-    donate_handler = CommandHandler("donate", donate, run_async=True)
+    donate_handler = CommandHandler("gfrdshu", donate, run_async=True)
 
     migrate_handler = MessageHandler(
         Filters.status_update.migrate, migrate_chats, run_async=True
